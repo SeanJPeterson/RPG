@@ -180,13 +180,13 @@ function fightBeast() {
   goFight();
 }
 
-function fightDragon() {
-  fighting = 3;
+function fightGolem() {
+  fighting = 2;
   goFight();
 }
 
-function fightGolem() {
-  fighting = 2;
+function fightDragon() {
+  fighting = 3;
   goFight();
 }
 
