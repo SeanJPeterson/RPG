@@ -49,13 +49,13 @@ const locations = [
   {
     name: "town square",
     "button text": ["Go to store", "Go to cave", "Fight dragon", "Extra Option"],
-    "button functions": [goStore, goCave, fightDragon, extraOption],
+    "button functions": [goStore, goCave, fightDragon],
     text: "You are in the town square. You see a sign that says \"Store\"."
   },
   {
     name: "store",
     "button text": ["Buy 10 health (10 gold)", "Buy weapon (30 gold)", "Go to town square", "Extra Option"],
-    "button functions": [buyHealth, buyWeapon, goTown, extraOption],
+    "button functions": [buyHealth, buyWeapon, goTown],
     text: "You enter the store."
   },
   {
@@ -67,13 +67,13 @@ const locations = [
   {
     name: "fight",
     "button text": ["Attack", "Dodge", "Run", "Extra Option"],
-    "button functions": [attack, dodge, goTown, extraOption],
+    "button functions": [attack, dodge, goTown],
     text: "You are fighting a monster."
   },
   {
     name: "kill monster",
     "button text": ["Go to town square", "Go to town square", "Go to town square", "Extra Option"],
-    "button functions": [goTown, goTown, easterEgg, extraOption],
+    "button functions": [goTown, goTown, easterEgg],
     text: 'The monster screams "Arg!" as it dies. You gain experience points and find gold.'
   },
   {
@@ -91,7 +91,7 @@ const locations = [
   {
     name: "easter egg",
     "button text": ["2", "8", "Go to town square?", "Extra Option"],
-    "button functions": [pickTwo, pickEight, goTown, extraOption],
+    "button functions": [pickTwo, pickEight, goTown],
     text: "You find a secret game. Pick a number above. Ten numbers will be randomly chosen between 0 and 10. If the number you choose matches one of the random numbers, you win!"
   }
 ];
